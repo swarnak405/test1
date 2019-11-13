@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test Started]]>
+    </line>
+    <line>
+      <![CDATA[Setting Done- Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and Getting application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser and application is running]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed>>>Reports generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55352" started-at="2019-11-12T22:58:20Z" finished-at="2019-11-12T22:59:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55352" started-at="2019-11-12T22:58:20Z" finished-at="2019-11-12T22:59:15Z">
+      <class name="com.test.testcases.Logintest">
+        <test-method status="PASS" signature="setUpSuit()[pri:0, instance:com.test.testcases.Logintest@23223dd8]" name="setUpSuit" is-config="true" duration-ms="586" started-at="2019-11-12T14:58:19Z" finished-at="2019-11-12T14:58:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test Started]]>
+            </line>
+            <line>
+              <![CDATA[Setting Done- Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuit -->
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.test.testcases.Logintest@23223dd8]" name="Setup" is-config="true" duration-ms="37714" started-at="2019-11-12T14:58:20Z" finished-at="2019-11-12T14:58:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and Getting application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser and application is running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.test.testcases.Logintest@23223dd8]" name="loginApp" duration-ms="8562" started-at="2019-11-12T14:58:57Z" finished-at="2019-11-12T14:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.test.testcases.Logintest@23223dd8]" name="tearDownMethod" is-config="true" duration-ms="7570" started-at="2019-11-12T14:59:06Z" finished-at="2019-11-12T14:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=Logintest.loginApp()[pri:0, instance:com.test.testcases.Logintest@23223dd8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed>>>Reports generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:com.test.testcases.Logintest@23223dd8]" name="Closebrowser" is-config="true" duration-ms="1470" started-at="2019-11-12T14:59:14Z" finished-at="2019-11-12T14:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- com.test.testcases.Logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
